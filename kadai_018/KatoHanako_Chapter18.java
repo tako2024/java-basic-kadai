@@ -3,10 +3,7 @@ package kadai_018;
 public class KatoHanako_Chapter18 extends Kato_Chapter18{
 	
 	//コンストラクタ
-	public KatoHanako_Chapter18(String familyName, String address) {
-		//親クラスのコンストラクタ呼出し
-		super(familyName, address);
-	}
+	public KatoHanako_Chapter18() {}
 	
 	//個別紹介
 	public void eachIntroduce() {

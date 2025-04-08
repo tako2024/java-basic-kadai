@@ -1,15 +1,13 @@
 package kadai_018;
 
 public abstract class Kato_Chapter18 {
-	//各情報
-	public String familyName;
-	public String givenName;
-	public String address;
+	//加藤クラス情報
+	public String familyName = "加藤";			//姓（初期設定）
+	public String givenName;					//名
+	public String address = "東京都中野区〇×";	//住所（初期設定）
 
-	//コンストラクタ（姓と住所を設定）
-	public Kato_Chapter18(String familyName, String address) {
-		this.familyName = familyName;
-		this.address = address;
+	//コンストラクタ
+	public Kato_Chapter18() {
 	}
 	
 	//共通紹介を出力
